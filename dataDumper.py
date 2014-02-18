@@ -16,12 +16,14 @@ while 1:
         hours = hour - launchTime + 12
     elif AMPM == 'PM' and hour < launchTime:
         hours = launchTime - hour 
-    elif hour == 9:
-        hours = 11
     else:
         hours = hour - launchTime + 12
 # Calculate minutes
-    minutes = 60 - minute
+    if hours == 24:
+        minutes = 0
+    else:
+        minutes = 60 - minute
+
 
 # sleepTime contains the seconds needed to delay until launchTime
     sleepTime = int(hours*3600 + minutes*60)
