@@ -4,7 +4,6 @@ StockTrak
 Module Notes:
 
 dataDumper.py 
-Status: Operational
 
 Spring 14 StockTrak DSS 
 dataDumper collection: https://www.dropbox.com/sh/z5r8fzfqt1jnz38/W4YkXeKKq8
@@ -16,3 +15,4 @@ Graphs - html
 Example scripts:
 sleepTime.py - calculates delay until a scheduled time (launchTime)
 StockTrakHTTP.py - HTTP login and data requests
+stockFetcher.py - real-time stock information
