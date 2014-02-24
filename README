@@ -16,3 +16,4 @@ Example scripts:
 sleepTime.py - calculates delay until a scheduled time (launchTime)
 StockTrakHTTP.py - HTTP login and data requests
 stockFetcher.py - real-time stock information
+parsing - Web scraping+parsing - real-time top 15 ETFs from Yahoo! finance
